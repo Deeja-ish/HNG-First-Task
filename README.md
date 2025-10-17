@@ -17,7 +17,7 @@ You can view the live project hosted here:
 
 ```markdown
 ![Desktop View](images/desktop-view.png)
-![Mobile View](images/mobile-view.png)
+![Mobile View](images/mobile-view.jpg)
 ```
 
 ---
