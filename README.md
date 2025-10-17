@@ -51,12 +51,12 @@ To run this project on your local machine, follow these simple steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/Deeja-ish/Hng-First-Task]
+    git clone [https://github.com/Deeja-ish/HNG-First-Task]
     ```
 
 2.  **Navigate to the project directory:**
     ```bash
-    cd 
+    cd HNG-First-Task
     ```
 
 3.  **Open the `index.html` file in your browser:**
