@@ -8,7 +8,7 @@ This project is a responsive, accessible, and testable profile card built as par
 
 You can view the live project hosted here:
 
-**[https://your-live-url.netlify.app/](https://your-live-url.netlify.app/)**
+**[https://papaya-mandazi-eb1783.netlify.app/]
 
 ---
 
@@ -16,8 +16,8 @@ You can view the live project hosted here:
 
 
 ```markdown
-![Desktop View](images/desktop-view.png)
-![Mobile View](images/mobile-view.jpg)
+[Desktop View](images/desktop-view.png)
+[Mobile View](images/mobile-view.jpg)
 ```
 
 ---
@@ -51,7 +51,7 @@ To run this project on your local machine, follow these simple steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    git clone [https://github.com/Deeja-ish/Hng-First-Task]
     ```
 
 2.  **Navigate to the project directory:**
