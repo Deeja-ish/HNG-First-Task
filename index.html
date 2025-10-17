@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profil Card </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <article class="profile-card" data-testid="test-profile-card">
+        <header class="profile-header">
+            <figure>
+                <img src="images/profile.jpg" 
+                alt="A profile picture"
+                data-testid="test-user-picture"
+                >
+            </figure>
+            <h2 data-testid="test-user-name">Khadija Ismail</h2>
+        </header> 
+        <section class="profile-body">
+            <p data-testid="test-user-bio">
+                Frontend developer intern passionate about creating accessible and user-friendly web experiences.
+            </p>
+
+            <div>
+                <strong>
+                    Current Time (WAT - Africa/Lagos):
+                </strong>
+                <span data-testid="test-user-time"></span>milliseconds
+            </div>
+            <nav>
+                <ul class="social-links" data-testid="test-user-social-links">
+                    <li>
+                        <a href="https://github.com/Deeja-ish"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        data-testid="test-user-social-github">
+                        Github
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/khadija-ismail-211223293"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        data-testid="test-user-social-linkedin">
+                        LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <section class="list-section">
+                <h3>Hobbies</h3>
+                <ul data-testid="test-user-hobbies">
+                    <li>Coding</li>
+                    <li>Reading</li>
+                    <li>Learning</li>
+                </ul>
+            </section>
+
+            <section class="list-section">
+                <h3>Dislikes</h3>
+                <ul data-testid="test-user-dislike">
+                    <li>Bugs in code</li>
+                    <li>Slow intern</li>
+                </ul>
+            </section>
+        </section>
+    </article>
+    <script src="script.js"></script>
+</body>
+</html>
