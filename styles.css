@@ -8,8 +8,42 @@ body{
     margin: 0;
     padding: 20px;
     box-sizing: border-box;
+    padding-top: 70px;
 }
 
+.main-nav{
+    width: 100%;
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main-nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+.main-nav ul li{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-nav a{
+    display: block;
+    text-decoration: none;
+    padding: 15px 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.main-nav a:hover,
+.main-nav a:focus{
+    background-color: #555;
+    outline: none;
+}
 /* the main container card  */
 .profile-card{
     background-color: #ffffff;
@@ -86,6 +120,107 @@ body{
     outline: 2px solid #0073b1;
     outline-offset: 2px;
     border-radius: 4px;
+}
+
+.page-content-card{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 800px;
+    padding: 20px 30px;
+    margin-top: 20px;
+}
+
+.page-content-card h1{
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.page-content-card h2{
+    color: #333;
+}
+
+.page-content-card ul{
+    padding-left: 20px;
+}
+
+.page-content-card li{
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+/* contact form style */
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label{
+    font-weight: bold;
+    margin-bottom: column;
+}
+
+.form-group input,
+.form-group textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-group input:focus,
+.form-group textarea:focus{
+    outline: 2px solid #0073b1;
+    border-color: #0073b1;
+}
+
+.contact-form button{
+    padding: 12px;
+    background-color: #0073b1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.contact-form button:hover,
+.contact-form button:focus{
+    background-color: #005a8a;
+}
+
+/* form validation */
+.error{
+    color: #d93025;
+    font-size: 0.9em;
+    margin-top: 3px;
+    min-height: 1em;
+}
+
+/* .form-group input:invalid,
+.form-group textarea:invalid{
+    /* border: #d93025 solid 2px;
+} */ 
+
+#success-message{
+    display: none;
+    padding: 15px;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
 }
 
 /* Responsiveness */
