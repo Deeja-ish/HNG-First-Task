@@ -18,9 +18,9 @@ You can view the live project hosted here:
 
 * **Profile Card (Desktop):** [Desktop View](images/desktop-view.png)
 * **Profile Card (Mobile):** [Mobile View](images/mobile-view.jpg)
-* **About Me Page:** `[Add link to About Me page screenshot]`
-* **Contact Page:** `[Add link to Contact page screenshot]`
-* **Contact Page (Validation):** `[Add link to validation/success screenshot]`
+* **About Me Page:** [About View](images/about-me.png)
+* **Contact Page:** [Contact Page](images/contact-me.png)
+* **Contact Page (Validation):** [Success Message](images/success-message.png)
 
 ---
 
