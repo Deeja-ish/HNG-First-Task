@@ -14,8 +14,6 @@ You can view the live project hosted here:
 
 ## 📸 Screenshots
 
-(You should update this section with new screenshots of your About and Contact pages)
-
 * **Profile Card (Desktop):** [Desktop View](images/desktop-view.png)
 * **Profile Card (Mobile):** [Mobile View](images/mobile-view.jpg)
 * **About Me Page:** [About View](images/about-me.png)
