@@ -1,6 +1,6 @@
-# Profile Card Component - Frontend Wizards Stage 0
+# Profile Card & Multi-Page Site - Frontend Wizards Stage 1
 
-This project is a responsive, accessible, and testable profile card built as part of the Stage 0 task for the Frontend Wizards internship. It is created using plain HTML, CSS, and vanilla JavaScript, with a strong focus on semantic markup and modern frontend practices.
+This project, initially a single profile card for Stage 0, has been expanded into a multi-page application for Stage 1 of the Frontend Wizards internship. It now includes a reflective "About Me" page and a "Contact Us" page with client-side validation. It is built using plain HTML, CSS, and vanilla JavaScript, with a strong focus on semantic markup, accessibility, and testability.
 
 ---
 
@@ -8,32 +8,52 @@ This project is a responsive, accessible, and testable profile card built as par
 
 You can view the live project hosted here:
 
-**[https://papaya-mandazi-eb1783.netlify.app/]
+**[https://papaya-mandazi-eb1783.netlify.app/]**
 
 ---
 
 ## 📸 Screenshots
 
+(You should update this section with new screenshots of your About and Contact pages)
 
-```markdown
-[Desktop View](images/desktop-view.png)
-[Mobile View](images/mobile-view.jpg)
-```
+* **Profile Card (Desktop):** [Desktop View](images/desktop-view.png)
+* **Profile Card (Mobile):** [Mobile View](images/mobile-view.jpg)
+* **About Me Page:** `[Add link to About Me page screenshot]`
+* **Contact Page:** `[Add link to Contact page screenshot]`
+* **Contact Page (Validation):** `[Add link to validation/success screenshot]`
 
 ---
 
 ## ✅ Core Requirements Checklist
 
-This project successfully implements all the core requirements from the task description:
+This project successfully implements all requirements from Stage 0 and Stage 1.
 
--   [x] **All `data-testid` Attributes:** Every required element includes the specified `data-testid` for automated testing.
--   [x] **Semantic HTML:** The structure uses semantic tags like `<article>`, `<header>`, `<section>`, `<figure>`, and `<nav>` to improve accessibility and SEO.
--   [x] **Responsiveness:** The layout is fully responsive, stacking vertically on mobile screens and transitioning to a two-column layout on wider screens (tablets/desktops) using CSS Flexbox.
--   [x] **Dynamic Time Display:** The current time in milliseconds is accurately displayed using `Date.now()` and updates every second.
+### Stage 0: Profile Card
+
+-   [x] **All `data-testid` Attributes:** Every required element on the profile card includes the specified `data-testid` for automated testing.
+-   [x] **Semantic HTML:** The structure uses semantic tags like `<article>`, `<header>`, `<section>`, `<figure>`, and `<nav>`.
+-   [x] **Responsiveness:** The layout is fully responsive, stacking vertically on mobile and using Flexbox for wider screens.
+-   [x] **Dynamic Time Display:** The current time is accurately displayed and updates every second.
 -   [x] **Accessible Images:** The avatar `<img>` includes a descriptive `alt` attribute.
--   [x] **Accessible Links:** Social media links open in a new tab with `target="_blank"` and `rel="noopener noreferrer"` for security.
--   [x] **Keyboard Navigation:** All interactive elements (links) are keyboard-focusable with a visible focus style for better accessibility.
--   [x] **Distinct Lists:** Hobbies and Dislikes are presented in separate `<ul>` elements within their own sections.
+-   [x] **Accessible Links:** Social media links open in a new tab with `target="_blank"` and `rel="noopener noreferrer"`.
+-   [x] **Keyboard Navigation:** All interactive elements are keyboard-focusable.
+
+### Stage 1: New Pages & Features
+
+-   [x] **Site-wide Navigation:** A consistent `<nav>` element is present on all three pages (`index.html`, `about.html`, `contact.html`) allowing users to move between them.
+-   [x] **Contact Us Page:**
+    -   [x] All required fields, buttons, and messages exist with correct `data-testid` attributes.
+    -   [x] Client-side validation is implemented in JavaScript.
+    -   [x] Validation checks for: all required fields, valid email format, and a message length of at least 10 characters.
+    -   [x] A success message (`data-testid="test-contact-success"`) is shown *only* after a valid submission.
+    -   [x] All inputs have associated `<label>`s using the `for` attribute for accessibility.
+    -   [x] Error messages are programmatically tied to inputs (using `aria-describedby` logic) when validation fails.
+-   [x] **About Me Page:**
+    -   [x] All required sections (`bio`, `goals`, `confidence`, `future-note`, `extra`) exist with correct `data-testid` attributes.
+    -   [x] The page uses a semantic structure, including `<main>`, `<section>`, `<h2>`, and `<ul>`.
+-   [x] **General:**
+    -   [x] All new pages are fully responsive and keyboard-navigable.
+    -   [x] Code remains modular (e.g., one `script.js` for all pages, one `styles.css`) and readable.
 
 ---
 
@@ -41,7 +61,7 @@ This project successfully implements all the core requirements from the task des
 
 -   **HTML5:** For the core structure and content.
 -   **CSS3:** For styling, layout (Flexbox), and responsiveness (Media Queries).
--   **Vanilla JavaScript:** For dynamically updating the current time on the card.
+-   **Vanilla JavaScript:** For dynamically updating the time and handling contact form validation.
 
 ---
 
@@ -51,7 +71,7 @@ To run this project on your local machine, follow these simple steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/Deeja-ish/HNG-First-Task]
+    git clone [[https://github.com/Deeja-ish/HNG-First-Task](https://github.com/Deeja-ish/HNG-First-Task)]
     ```
 
 2.  **Navigate to the project directory:**
